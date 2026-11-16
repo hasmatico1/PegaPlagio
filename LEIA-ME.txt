@@ -1,0 +1,54 @@
+PEGA PLÁGIO
+===========
+Procura plágio no seu trabalho e confere se as referências estão adequadas.
+
+O QUE O PROGRAMA FAZ
+1. Procura na internet trabalhos parecidos com o seu (artigos, teses e dissertações do catálogo
+   aberto OpenAlex, e a Wikipédia). Não usa inteligência artificial e não precisa de cadastro nem chave.
+   Quando acha uma fonte, baixa o texto dela (a página da Wikipédia ou o PDF, quando é de acesso livre),
+   compara com o seu trabalho e MARCA no seu texto cada trecho copiado, com cor diferente por fonte.
+   Clique em um trecho marcado para ver de onde ele vem; dois cliques abrem a fonte no navegador.
+   Trechos entre aspas com a fonte indicada não contam como plágio.
+   A aba "Trabalhos iguais" mostra, lado a lado, o seu trabalho e cada trabalho encontrado, com o trecho
+   copiado marcado nos dois. Os botões "Trecho anterior" e "Próximo trecho" levam de um trecho ao outro.
+2. Confere se as referências estão adequadas: se há lista de referências, se o formato segue a ABNT,
+   se cada citação do texto está na lista (e vice-versa), se citações diretas longas indicam a fonte e,
+   quando há internet, se as obras da lista existem no catálogo.
+3. Compara o trabalho com arquivos que você mesmo escolher (colegas, fontes), marcando os trechos iguais.
+4. Mostra um gráfico na aba Resumo:
+   - se há plágio: quantos % do trabalho foram copiados de outras fontes;
+   - se não há plágio: quantos % do trabalho estão em trechos com citação sem referência na lista
+     (ou citação direta entre aspas sem fonte). A lista de referências não entra na conta.
+5. Salva um relatório em texto, com os trechos copiados e a origem de cada um.
+
+SEM INTERNET
+Uma faixa vermelha no topo avisa quando o computador está sem internet. Nesse caso a busca por
+trabalhos parecidos fica desativada (o programa avisa e não pesquisa). As referências e a comparação
+com seus arquivos continuam funcionando.
+
+COMO ABRIR (WINDOWS)
+1. Instale o Python em https://www.python.org/downloads/ (marque "Add Python to PATH").
+2. Dê dois cliques em iniciar.bat. Na primeira vez ele instala o componente de leitura de PDF.
+
+COMO ABRIR (LINUX / MAC)
+   ./iniciar.sh      (no Linux pode ser preciso: sudo apt install python3-tk)
+
+VIRAR UM PROGRAMA .EXE
+   Dê dois cliques em criar_executavel.bat. O arquivo dist\PegaPlagio.exe poderá ser copiado
+   para outros computadores sem instalar o Python.
+
+COMO USAR
+1. Clique em "Escolher arquivo..." (PDF, DOCX, TXT, RTF ou ODT) ou em "Colar texto".
+2. Clique em "Verificar plágio e referências".
+3. Veja as abas Resumo (com o gráfico), Plágio (seu texto marcado), Trabalhos iguais (lado a lado),
+   Referências e Comparar com meus arquivos.
+Na pasta "exemplos" há dois textos para testar.
+
+LIMITES
+- A busca não cobre toda a internet. "Nada igual" não garante originalidade.
+- A porcentagem de plágio é o mínimo comprovado: se a fonte só foi comparada pelo resumo (PDF fechado
+  ou indisponível), o programa avisa e a porcentagem real pode ser maior.
+- A conferência de referências é de forma (normas ABNT NBR 6023 e 10520). Ela não confirma se o
+  conteúdo citado está correto.
+- Arquivos .doc antigos não são lidos (salve como .docx). PDF escaneado (imagem) não tem texto para ler.
+- Os serviços gratuitos limitam o número de consultas por dia. Se o limite for atingido, o programa avisa.
