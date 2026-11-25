@@ -4,7 +4,8 @@ Procura plágio no seu trabalho e confere se as referências estão adequadas.
 
 O QUE O PROGRAMA FAZ
 1. Procura na internet trabalhos parecidos com o seu (artigos, teses e dissertações do catálogo
-   aberto OpenAlex, e a Wikipédia). Não usa inteligência artificial e não precisa de cadastro nem chave.
+   aberto OpenAlex, e a Wikipédia). Não usa inteligência artificial. Funciona sem cadastro, mas o OpenAlex
+   limita as buscas por dia (veja "LIMITE DE BUSCAS" abaixo).
    Quando acha uma fonte, baixa o texto dela (a página da Wikipédia ou o PDF, quando é de acesso livre),
    compara com o seu trabalho e MARCA no seu texto cada trecho copiado, com cor diferente por fonte.
    Clique em um trecho marcado para ver de onde ele vem; dois cliques abrem a fonte no navegador.
@@ -20,6 +21,16 @@ O QUE O PROGRAMA FAZ
    - se não há plágio: quantos % do trabalho estão em trechos com citação sem referência na lista
      (ou citação direta entre aspas sem fonte). A lista de referências não entra na conta.
 5. Salva um relatório em texto, com os trechos copiados e a origem de cada um.
+
+LIMITE DE BUSCAS
+O OpenAlex permite poucas buscas por dia para quem não tem chave (cerca de 100) e cerca de 10 vezes mais
+para quem tem uma chave gratuita. Uma verificação completa gasta várias buscas, principalmente por causa da
+conferência das referências. Para aumentar o limite:
+1. Crie uma conta gratuita em openalex.org e copie a chave em openalex.org/settings/api.
+2. No programa, clique em "Configurações...", cole a chave e clique em Salvar (há um botão para testar).
+3. Se quiser gastar menos buscas, desmarque a caixa "Conferir na internet se as obras da lista de
+   referências existem". O limite volta todo dia à meia-noite UTC (21h em Brasília).
+A chave fica guardada só no seu computador (pasta .pega_plagio, dentro da pasta do seu usuário).
 
 SEM INTERNET
 Uma faixa vermelha no topo avisa quando o computador está sem internet. Nesse caso a busca por
@@ -51,4 +62,5 @@ LIMITES
 - A conferência de referências é de forma (normas ABNT NBR 6023 e 10520). Ela não confirma se o
   conteúdo citado está correto.
 - Arquivos .doc antigos não são lidos (salve como .docx). PDF escaneado (imagem) não tem texto para ler.
-- Os serviços gratuitos limitam o número de consultas por dia. Se o limite for atingido, o programa avisa.
+- Os serviços gratuitos limitam o número de consultas por dia. Se o limite for atingido ou a chave não for aceita,
+  o programa avisa e mostra o que conseguiu verificar.

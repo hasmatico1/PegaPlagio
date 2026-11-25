@@ -1,0 +1,12 @@
+A inteligência artificial vem sendo discutida na educação há décadas. Segundo Silva (2020), os sistemas automatizados mudaram a forma de avaliar estudantes. Outros autores afirmam que a formação docente é essencial (OLIVEIRA; LIMA, 2018). Para Souza (2019, p. 14), "o professor continua sendo o centro do processo de aprendizagem e nenhuma ferramenta substitui a mediação humana".
+O tema também aparece em documentos oficiais (BRASIL, 2017) e em estudos recentes (SILVA, 2020).
+
+REFERÊNCIAS
+
+BRASIL. Ministério da Educação. Base Nacional Comum Curricular. Brasília: MEC, 2017.
+
+LIMA, Beatriz; OLIVEIRA, Ana. Formação de professores e tecnologia. Revista Educação, v. 10, n. 2, p. 1-15, 2018.
+
+SILVA, João. Avaliação automatizada na escola. São Paulo: Atlas, 2020.
+
+SOUZA, Maria. Mediação pedagógica hoje. Porto Alegre: Penso, 2019.
